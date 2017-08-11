@@ -17,8 +17,9 @@ class ViewController: UIViewController {
 		let response = leoReadObject(bunldePath: "SomeObjectReponse", extention: "json")
 		print(response)
 
-		let json = leoReadJson(bunldePath: "SomeJson", extention: "json")
+		let json = leoReadJson(bunldePath: "ResponseRhunnningJob", extention: "json")
 
+	
 		print("Some ->>>>>>>>>>>>>.", json ?? "Not given ")
 
 	}
