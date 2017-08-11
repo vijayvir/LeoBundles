@@ -1,0 +1,19 @@
+{
+	
+	string = "2017-07-07";
+	int = 4 ;
+	bool = true ;
+	arrayOfInt = (9,8,1,4,1,6,4,5,1,1);
+	arrayOfDict = (
+								 {
+								 string = "2017-07-07";
+								 int = 4 ;
+								 } ,
+								 {
+								 string = "2017-07-07";
+								 int = 4 ;
+								 }
+								 
+								 );
+}
+
