@@ -17,14 +17,15 @@ class ViewController: UIViewController {
 		let response = leoReadObject(bunldePath: "SomeObjectReponse", extention: "json")
 		print(response)
 
-		let json = leoReadJson(bunldePath: "ResponseRhunnningJob", extention: "json")
+		let json = leoReadDataFromCSV(bunldePath: "IndiaStates", extention: "csv")
 
 	
-		print("Some ->>>>>>>>>>>>>.", json ?? "Not given ")
+		 print("Some ->>>>>>>>>>>>>.", json ?? "Not given ")
 
 	}
 
 	override func didReceiveMemoryWarning() {
+		
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}

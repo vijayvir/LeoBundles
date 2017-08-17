@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1196E9D41F3DD4740099049E /* SomeObjectReponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 1196E9D31F3DD1660099049E /* SomeObjectReponse.json */; };
 		119EC6281F3DE0A2003F859E /* SomeJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 119EC6271F3DE0A2003F859E /* SomeJson.json */; };
+		11DD9EE91F4568480000C779 /* IndiaStates.csv in Resources */ = {isa = PBXBuildFile; fileRef = 11DD9EE81F4568480000C779 /* IndiaStates.csv */; };
 		11E5452B1F3DCF6100F62164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5452A1F3DCF6100F62164 /* AppDelegate.swift */; };
 		11E5452D1F3DCF6100F62164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5452C1F3DCF6100F62164 /* ViewController.swift */; };
 		11E545301F3DCF6100F62164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E5452E1F3DCF6100F62164 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		1196E9D21F3DD0180099049E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1196E9D31F3DD1660099049E /* SomeObjectReponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SomeObjectReponse.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
 		119EC6271F3DE0A2003F859E /* SomeJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SomeJson.json; sourceTree = "<group>"; };
+		11DD9EE81F4568480000C779 /* IndiaStates.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IndiaStates.csv; sourceTree = "<group>"; };
 		11E545271F3DCF6100F62164 /* BundleRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BundleRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E5452A1F3DCF6100F62164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11E5452C1F3DCF6100F62164 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				11E5452A1F3DCF6100F62164 /* AppDelegate.swift */,
 				11E5452C1F3DCF6100F62164 /* ViewController.swift */,
+				11DD9EE81F4568480000C779 /* IndiaStates.csv */,
 				11E5453C1F3DCF7000F62164 /* LeoReadBundle.swift */,
 				1196E9D31F3DD1660099049E /* SomeObjectReponse.json */,
 				119EC6271F3DE0A2003F859E /* SomeJson.json */,
@@ -139,6 +142,7 @@
 				11E545321F3DCF6100F62164 /* Assets.xcassets in Resources */,
 				1196E9D41F3DD4740099049E /* SomeObjectReponse.json in Resources */,
 				11E545301F3DCF6100F62164 /* Main.storyboard in Resources */,
+				11DD9EE91F4568480000C779 /* IndiaStates.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
