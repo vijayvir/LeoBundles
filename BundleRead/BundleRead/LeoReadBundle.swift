@@ -100,10 +100,7 @@ func cleanRows(file:String)->String{
 	cleanFile = cleanFile.replacingOccurrences(of: "\r", with: "\n")
 	
 	cleanFile = cleanFile.replacingOccurrences(of: "\n\n", with: "\n")
-	
-	//        cleanFile = cleanFile.replacingOccurrences(of: ";;", with: "")
-	
-	//        cleanFile = cleanFile.replacingOccurrences(of: ";\n", with: "")
+
 	return cleanFile
 }
 
@@ -112,7 +109,7 @@ func csv(data: String) -> [[Any]] {
 	var result: [[Any]] = []
 	let rows = data.components(separatedBy: "\n")
 	for row in rows {
-		let columns = row.components(separatedBy: ";")
+		let columns = row.components(separatedBy: ",")
 		result.append(columns)
 	}
 	return result
